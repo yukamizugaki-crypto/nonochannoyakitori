@@ -1044,7 +1044,8 @@ ul { list-style: none; }
     line-height: 1.8;
 }
 
-.footer-br {
+.footer-br,
+.footer-br-holiday {
     display: none;
 }
 
@@ -1209,6 +1210,10 @@ ul { list-style: none; }
 
     .about-image::after { display: none; }
 
+    #about .section-title {
+        font-size: clamp(1.3rem, 5.5vw, 1.8rem);
+    }
+
     /* Menu */
     .menu-grid {
         max-width: 720px;
@@ -1241,7 +1246,8 @@ ul { list-style: none; }
         justify-content: center;
     }
 
-    .footer-br {
+    .footer-br,
+    .footer-br-holiday {
         display: block;
     }
 
